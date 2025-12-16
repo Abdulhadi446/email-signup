@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Get Project Updates</title>
+
+    <!-- SEO -->
+    <meta
+      name="description"
+      content="Get updates on my projects, tools, and experiments in software, AI, and game development."
+    />
+    <meta
+      name="keywords"
+      content="developer projects, indie dev updates, software tools, AI projects, game dev"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Social Preview -->
+    <meta property="og:title" content="Project Updates" />
+    <meta
+      property="og:description"
+      content="Follow my journey building tools, games, and experiments."
+    />
+    <meta property="og:type" content="website" />
+
+    <style>
+      body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+        background: #0f172a;
+        color: #e5e7eb;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .card {
+        background: #020617;
+        padding: 32px;
+        border-radius: 14px;
+        width: 100%;
+        max-width: 420px;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+      }
+
+      h1 {
+        margin-top: 0;
+        font-size: 1.8rem;
+      }
+
+      p {
+        color: #94a3b8;
+      }
+
+      input {
+        width: 100%;
+        padding: 12px;
+        border-radius: 8px;
+        border: none;
+        margin-top: 12px;
+        font-size: 1rem;
+      }
+
+      button {
+        width: 100%;
+        margin-top: 16px;
+        padding: 12px;
+        border-radius: 8px;
+        border: none;
+        background: #2563eb;
+        color: white;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background: #1d4ed8;
+      }
+
+      .small {
+        font-size: 0.8rem;
+        color: #64748b;
+        margin-top: 10px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1>Get Project Updates</h1>
+      <p>
+        I build tools, games, and experimental software. Join the list and I’ll
+        email you when something cool ships.
+      </p>
+
+      <form action="https://formspree.io/f/xqarvpre" method="POST">
+        <input
+          type="email"
+          name="email"
+          placeholder="you@example.com"
+          required
+        />
+        <button type="submit">Notify Me</button>
+      </form>
+
+      <div class="small">No spam. Unsubscribe anytime.</div>
+    </div>
+  </body>
+</html>
