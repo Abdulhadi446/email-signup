@@ -141,15 +141,18 @@
         margin-top: 10px;
         text-align: center;
       }
+
+      .text:hover {
+        color: #ffffff;
+        transition: color 0.3s ease;
+      }
     </style>
   </head>
   <body>
     <div class="card">
       <h1>Get Project Updates</h1>
-      <p>
-        I build small tools, games, and experimental software. I only email when
-        something new ships. Currently building in public.
-      </p>
+
+      <p class="text">Indie developer, shipping small things.</p>
 
       <form
         action="https://formspree.io/f/xqarvpre"
@@ -162,12 +165,17 @@
           placeholder="you@example.com"
           required
         />
-        <button type="submit">Get Updates</button>
+        <button type="submit">Get Updates & Early Access</button>
       </form>
+      <p>Used by people who like indie dev tools.</p>
 
       <div class="small">
         No spam. 1–2 emails per month. Unsubscribe anytime. .
       </div>
     </div>
+    <footer>
+      © 2025 <a href="https://github.com/Abdulhadi446">Abdul Hadi</a> — Built
+      with curiosity.
+    </footer>
   </body>
 </html>
